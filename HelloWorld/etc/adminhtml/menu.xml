@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    <add id="MageMastery_HelloWorld::helloworld" title="SRK" module="MageMastery_HelloWorld"  resource="MageMastery_HelloWorld::helloworld"/>
+        <add id="MageMastery_HelloWorld::post" title="Posts" module="MageMastery_HelloWorld"  action="magemastery_helloworld/post/index" resource="MageMastery_HelloWorld::post" parent="MageMastery_HelloWorld::helloworld"/>
+    </menu>
+</config>
